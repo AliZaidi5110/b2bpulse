@@ -1,6 +1,3 @@
-import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
-
 export function MerchantPortalSection() {
   return (
     <section className="mt-24 grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
@@ -26,23 +23,6 @@ export function MerchantPortalSection() {
           this in mind, ensuring you&apos;ve everything you need to get the job
           done.
         </p>
-
-        <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-          <Link
-            href="#"
-            className="inline-flex items-center justify-center gap-1 rounded-full bg-[#FFD84D] px-6 py-3.5 text-sm font-semibold text-slate-900 shadow-md transition-transform hover:scale-[1.02] hover:shadow-lg"
-          >
-            Download the app on iOS
-            <ChevronRight className="h-4 w-4" />
-          </Link>
-          <Link
-            href="#"
-            className="inline-flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-[#2D2654] to-[#1E1B3A] px-6 py-3.5 text-sm font-semibold text-white shadow-md transition-transform hover:scale-[1.02] hover:shadow-lg"
-          >
-            Download the app on Android
-            <ChevronRight className="h-4 w-4" />
-          </Link>
-        </div>
       </div>
     </section>
   );
