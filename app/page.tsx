@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Hero } from '@/components/home/Hero';
 import { LiveStatStrip } from '@/components/home/LiveStatStrip';
+import { SavingsPromoBanner } from '@/components/home/SavingsPromoBanner';
 import { ServicesGrid } from '@/components/home/ServicesGrid';
 import { PaymentGallery } from '@/components/home/PaymentGallery';
 import { Testimonials } from '@/components/home/Testimonials';
@@ -12,6 +13,7 @@ export default function HomePage() {
     <>
       <Hero />
       <LiveStatStrip />
+      <SavingsPromoBanner />
       <PaymentGallery />
       <ServicesGrid />
 
