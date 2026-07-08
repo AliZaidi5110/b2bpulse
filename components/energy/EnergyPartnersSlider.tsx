@@ -33,7 +33,7 @@ export function EnergyPartnersSlider() {
           {logos.map((partner, index) => (
             <div
               key={`${partner.name}-${index}`}
-              className="mx-4 flex h-24 w-44 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-slate-950 px-5 py-4 shadow-sm dark:border-slate-700 sm:h-28 sm:w-52"
+              className="mx-4 flex h-24 w-44 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-sm sm:h-28 sm:w-52"
             >
               <img
                 src={partner.logo}

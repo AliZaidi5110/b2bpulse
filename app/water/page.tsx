@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, Droplets, CheckCircle } from 'lucide-react';
+import { WaterQuoteBanner } from '@/components/water/WaterQuoteBanner';
 
 export const metadata: Metadata = {
   title: 'Water',
@@ -29,6 +30,8 @@ export default function WaterPage() {
             tracking and support.
           </p>
         </div>
+
+        <WaterQuoteBanner />
 
         <div className="mx-auto mt-12 max-w-2xl">
           <p className="text-center text-slate-600 dark:text-slate-300">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, Zap, Headphones } from 'lucide-react';
 import { PulseLine } from '@/components/ui/PulseLine';
+import { ElectricitySolutionsSection } from '@/components/about/ElectricitySolutionsSection';
 import { companyStats } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -68,6 +69,8 @@ export default function AboutPage() {
               Solutions Backed by Real-Time Support
             </li>
           </ul>
+
+          <ElectricitySolutionsSection />
         </div>
       </section>
 
