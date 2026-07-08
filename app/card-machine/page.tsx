@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { CreditCard } from 'lucide-react';
+import { CardMachineGallery } from '@/components/card-machine/CardMachineGallery';
 import { MerchantPortalSection } from '@/components/card-machine/MerchantPortalSection';
 
 export const metadata: Metadata = {
@@ -29,32 +30,24 @@ export default function CardMachinePage() {
           </p>
         </div>
 
-        <section className="mt-16 grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="group overflow-hidden rounded-l-[4rem]">
-            <img
-              src="/images/card-machine/accept-payments.png"
-              alt="Merchant accepting a contactless mobile payment with a handheld card terminal"
-              className="aspect-[5/3] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-            />
-          </div>
+        <CardMachineGallery />
 
-          <div>
-            <h2 className="font-display text-3xl font-bold sm:text-4xl">
-              Accept Payments Anywhere
-            </h2>
-            <p className="mt-4 text-slate-600 dark:text-slate-300">
-              Whether customers pull up outside or line up in-store, you can
-              quickly accept payments wherever business takes you.
-            </p>
-            <ul className="mt-8 space-y-5">
-              {features.map((feature) => (
-                <li key={feature} className="flex items-start gap-3">
-                  <span className="mt-2.5 h-2 w-2 shrink-0 rounded-full bg-primary" />
-                  <span className="text-slate-600 dark:text-slate-300">{feature}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <section className="mt-16 max-w-3xl">
+          <h2 className="font-display text-3xl font-bold sm:text-4xl">
+            Accept Payments Anywhere
+          </h2>
+          <p className="mt-4 text-slate-600 dark:text-slate-300">
+            Whether customers pull up outside or line up in-store, you can
+            quickly accept payments wherever business takes you.
+          </p>
+          <ul className="mt-8 space-y-5">
+            {features.map((feature) => (
+              <li key={feature} className="flex items-start gap-3">
+                <span className="mt-2.5 h-2 w-2 shrink-0 rounded-full bg-primary" />
+                <span className="text-slate-600 dark:text-slate-300">{feature}</span>
+              </li>
+            ))}
+          </ul>
         </section>
 
         <MerchantPortalSection />
