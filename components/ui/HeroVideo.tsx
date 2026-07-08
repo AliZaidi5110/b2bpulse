@@ -19,10 +19,13 @@ export function HeroVideo({ className, showControls = true }: HeroVideoProps) {
     const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 
     function handleMotionChange() {
+      const el = videoRef.current;
+      if (!el) return;
+
       if (motionQuery.matches) {
-        video.pause();
+        el.pause();
       } else {
-        video.play().catch(() => {});
+        el.play().catch(() => {});
       }
     }
 

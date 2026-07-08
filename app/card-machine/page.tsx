@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
-import { ArrowRight, CreditCard, CheckCircle } from 'lucide-react';
+import { CreditCard } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Card Machine',
@@ -8,12 +7,10 @@ export const metadata: Metadata = {
     'Secure, fast, and contactless payment systems with full technical assistance.',
 };
 
-const benefits = [
-  'Accept all major payment types with ease',
-  'Advanced card machines with speed and security',
-  'Seamless support designed for every kind of business',
-  'Quick, smooth setup perfectly suited to daily operations',
-  'Technical support just a call away whenever you need it',
+const features = [
+  'Accept EMV, NFC, and swiped card payments',
+  'Powered by Wi-Fi and 4G connectivity',
+  'Secure transactions with advanced tokenization & PCI encryption',
 ];
 
 export default function CardMachinePage() {
@@ -31,27 +28,33 @@ export default function CardMachinePage() {
           </p>
         </div>
 
-        <div className="mx-auto mt-12 max-w-2xl">
-          <p className="text-center text-slate-600 dark:text-slate-300">
-            Accept all major payment types with ease. Our advanced card machines
-            offer speed, security, and seamless support — designed for every
-            kind of business.
-          </p>
-          <ul className="mt-8 space-y-4">
-            {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-3">
-                <CheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-signal" />
-                <span className="text-slate-600 dark:text-slate-300">{b}</span>
-              </li>
-            ))}
-          </ul>
-          <div className="mt-10 text-center">
-            <Link href="/contact" className="btn-primary">
-              Get a Quote
-              <ArrowRight className="h-4 w-4" />
-            </Link>
+        <section className="mt-16 grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+          <div className="group overflow-hidden rounded-l-[4rem]">
+            <img
+              src="/images/card-machine/accept-payments.png"
+              alt="Merchant accepting a contactless mobile payment with a handheld card terminal"
+              className="aspect-[5/3] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
+            />
           </div>
-        </div>
+
+          <div>
+            <h2 className="font-display text-3xl font-bold sm:text-4xl">
+              Accept Payments Anywhere
+            </h2>
+            <p className="mt-4 text-slate-600 dark:text-slate-300">
+              Whether customers pull up outside or line up in-store, you can
+              quickly accept payments wherever business takes you.
+            </p>
+            <ul className="mt-8 space-y-5">
+              {features.map((feature) => (
+                <li key={feature} className="flex items-start gap-3">
+                  <span className="mt-2.5 h-2 w-2 shrink-0 rounded-full bg-primary" />
+                  <span className="text-slate-600 dark:text-slate-300">{feature}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
       </div>
     </div>
   );
