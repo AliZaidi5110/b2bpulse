@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { CreditCard } from 'lucide-react';
+import { MerchantPortalSection } from '@/components/card-machine/MerchantPortalSection';
 
 export const metadata: Metadata = {
   title: 'Card Machine',
@@ -55,6 +56,8 @@ export default function CardMachinePage() {
             </ul>
           </div>
         </section>
+
+        <MerchantPortalSection />
       </div>
     </div>
   );
