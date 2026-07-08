@@ -44,6 +44,7 @@ const config: Config = {
         'pulse-line': 'pulse-line 3s ease-in-out infinite',
         'fade-in': 'fade-in 0.6s ease-out forwards',
         'slide-up': 'slide-up 0.6s ease-out forwards',
+        'logo-marquee': 'logo-marquee 35s linear infinite',
       },
       keyframes: {
         'pulse-line': {
@@ -57,6 +58,10 @@ const config: Config = {
         'slide-up': {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'logo-marquee': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
     },

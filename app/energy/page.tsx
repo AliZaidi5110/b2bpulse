@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, Zap, CheckCircle } from 'lucide-react';
 import { siteConfig } from '@/lib/site';
+import { EnergyPartnersSlider } from '@/components/energy/EnergyPartnersSlider';
+import { EnergyDealBanner } from '@/components/energy/EnergyDealBanner';
+import { EnergySavingsBanner } from '@/components/energy/EnergySavingsBanner';
 
 export const metadata: Metadata = {
   title: 'Energy',
@@ -30,6 +33,12 @@ export default function EnergyPage() {
             business performance.
           </p>
         </div>
+
+        <EnergyDealBanner />
+
+        <EnergySavingsBanner />
+
+        <EnergyPartnersSlider />
 
         <div className="mx-auto mt-12 max-w-2xl">
           <p className="text-center text-slate-600 dark:text-slate-300">
