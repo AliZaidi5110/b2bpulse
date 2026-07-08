@@ -45,6 +45,7 @@ const config: Config = {
         'fade-in': 'fade-in 0.6s ease-out forwards',
         'slide-up': 'slide-up 0.6s ease-out forwards',
         'logo-marquee': 'logo-marquee 35s linear infinite',
+        'balloon-float': 'balloon-float 3s ease-in-out infinite',
       },
       keyframes: {
         'pulse-line': {
@@ -62,6 +63,10 @@ const config: Config = {
         'logo-marquee': {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
+        },
+        'balloon-float': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-18px)' },
         },
       },
     },

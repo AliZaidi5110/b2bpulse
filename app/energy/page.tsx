@@ -36,8 +36,6 @@ export default function EnergyPage() {
 
         <EnergyDealBanner />
 
-        <EnergySavingsBanner />
-
         <EnergyPartnersSlider />
 
         <div className="mx-auto mt-12 max-w-2xl">
@@ -52,12 +50,15 @@ export default function EnergyPage() {
               </li>
             ))}
           </ul>
-          <div className="mt-10 text-center">
-            <Link href="/contact" className="btn-primary">
-              Get a Quote
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </div>
+        </div>
+
+        <EnergySavingsBanner />
+
+        <div className="mx-auto mt-12 max-w-2xl text-center">
+          <Link href="/contact" className="btn-primary">
+            Get a Quote
+            <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
       </div>
     </div>

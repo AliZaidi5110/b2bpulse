@@ -10,16 +10,11 @@ export function EnergySavingsBanner() {
           </h2>
         </div>
 
-        <div className="flex items-end justify-center gap-4 sm:gap-6 lg:justify-end">
-          <img
-            src="/images/energy/balloon-green.png"
-            alt="Green hot air balloon with Cheaper Bills banner"
-            className="h-48 w-auto object-contain drop-shadow-xl sm:h-56 lg:h-64"
-          />
+        <div className="flex justify-center lg:justify-end">
           <img
             src="/images/energy/balloon-pink.png"
             alt="Pink hot air balloon with Cheaper Bills banner"
-            className="h-52 w-auto object-contain drop-shadow-xl sm:h-60 lg:h-72"
+            className="h-56 w-auto object-contain drop-shadow-xl motion-safe:animate-balloon-float sm:h-64 lg:h-72"
           />
         </div>
       </div>
