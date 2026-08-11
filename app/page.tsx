@@ -29,7 +29,7 @@ export default function HomePage() {
                 Focused Services That Power Growth
               </h2>
               <p className="mt-4 text-slate-600 dark:text-slate-300">
-                At {siteConfig.name}, we help businesses manage energy, water, and
+                At {siteConfig.name}, we help businesses manage energy and
                 payments with ease. Our smart solutions are reliable,
                 cost-effective, and fully tailored to your operations.
               </p>
@@ -44,7 +44,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neon shadow-neon-sm" />
-                  Delivering Smarter Energy, Water &amp; Payment Solutions Across the UK
+                  Delivering Smarter Energy &amp; Payment Solutions Across the UK
                 </li>
               </ul>
               <Link href="/about" className="btn-primary mt-8">
@@ -59,7 +59,7 @@ export default function HomePage() {
               </h3>
               <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">
                 At {siteConfig.name}, we go beyond just supplying services — we simplify
-                how your business manages energy, water, and payments. Our
+                how your business manages energy and payments. Our
                 customised approach ensures savings, stability, and peace of mind.
               </p>
               <div className="mt-6 grid grid-cols-2 gap-4">

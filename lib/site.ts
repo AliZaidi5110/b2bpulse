@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'Corelynk',
   tagline: 'Connecting What Matters',
   description:
-    'From energy and water to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
+    'From business energy to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
   url: 'https://corelynkltd.co.uk',
   contact: {
     email: 'info@corelynkltd.co.uk',
@@ -22,7 +22,6 @@ export const siteConfig = {
 export const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
-  { href: '/water', label: 'Water' },
   { href: '/energy', label: 'Energy' },
   { href: '/card-machine', label: 'Card Machine' },
   { href: '/faq', label: 'Faq' },
@@ -33,7 +32,7 @@ export const heroSlides = [
   {
     title: 'Empowering Business Utilities',
     description:
-      'From energy and water to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
+      'From business energy to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
     tag: 'Energy',
     cta: { label: 'Explore Energy', href: '/energy' },
   },
@@ -43,13 +42,6 @@ export const heroSlides = [
       'Accept all major payment types with ease. Our advanced card machines offer speed, security, and seamless support — designed for every kind of business.',
     tag: 'Card Machines',
     cta: { label: 'View Card Machines', href: '/card-machine' },
-  },
-  {
-    title: 'Your Trusted Utility Partner',
-    description:
-      'We simplify utility management so you can focus on growth. Get expert service, competitive rates, and dependable support — all in one place.',
-    tag: 'Water',
-    cta: { label: 'Water Solutions', href: '/water' },
   },
 ];
 
@@ -66,12 +58,12 @@ export const faqs = [
   {
     question: 'What services does Corelynk provide?',
     answer:
-      'We provide complete utility solutions including energy, water, and card machines — designed to simplify operations, reduce costs, and help your business grow.',
+      'We provide complete business solutions including energy and card machines — designed to simplify operations, reduce costs, and help your business grow.',
   },
   {
     question: 'Do you serve businesses across the UK?',
     answer:
-      'Yes. Corelynk delivers smarter energy, water, and payment solutions across the UK for startups and large enterprises alike.',
+      'Yes. Corelynk delivers smarter energy and payment solutions across the UK for startups and large enterprises alike.',
   },
   {
     question: 'How can I get a quote?',
@@ -81,7 +73,7 @@ export const faqs = [
   {
     question: 'What support do you offer after setup?',
     answer:
-      'We provide dedicated account managers and round-the-clock help for all your utility needs, including ongoing support for energy, water, and card machine services.',
+      'We provide dedicated account managers and round-the-clock help, including ongoing support for energy and card machine services.',
   },
   {
     question: 'Can you help reduce utility costs?',

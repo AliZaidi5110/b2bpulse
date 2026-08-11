@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import {
   Zap,
-  Droplets,
   CreditCard,
   Headphones,
 } from 'lucide-react';
@@ -10,7 +9,6 @@ import { PulseLine } from '@/components/ui/PulseLine';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   zap: Zap,
-  droplets: Droplets,
   'credit-card': CreditCard,
   headphones: Headphones,
 };
@@ -28,14 +26,14 @@ export function ServicesGrid() {
             <span className="gradient-text">Built for You</span>
           </h2>
           <p className="mt-4 text-slate-600 dark:text-slate-300">
-            We provide complete utility solutions — including energy, water, and
-            card machines — designed to simplify operations, reduce costs, and
-            help your business grow. Whether you&apos;re a startup or a large
+            We provide complete business solutions — including energy and card
+            machines — designed to simplify operations, reduce costs, and help
+            your business grow. Whether you&apos;re a startup or a large
             enterprise, our services scale with your needs.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => {
             const Icon = iconMap[service.icon] || Zap;
             const content = (

@@ -18,7 +18,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="font-display text-4xl font-bold">Contact Us</h1>
           <p className="mt-4 text-slate-600 dark:text-slate-300">
-            Get a quote or speak with our team about energy, water, and payment
+            Get a quote or speak with our team about energy and payment
             solutions for your business.
           </p>
         </div>

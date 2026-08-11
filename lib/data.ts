@@ -50,20 +50,6 @@ export const services: Service[] = [
 
   {
 
-    title: 'Water Management',
-
-    description:
-
-      'Reliable supply and transparent billing with optimised usage tracking and support.',
-
-    icon: 'droplets',
-
-    href: '/water',
-
-  },
-
-  {
-
     title: 'Card Machines',
 
     description:
@@ -100,7 +86,7 @@ export const testimonials: Testimonial[] = [
 
     quote:
 
-      'We switched to Corelynk for our energy and water needs, and the difference has been incredible. Their team helped us reduce costs while maintaining reliable service. The support is prompt, polite, and genuinely helpful every time we reach out.',
+      'We switched to Corelynk for our business energy needs, and the difference has been incredible. Their team helped us reduce costs while maintaining reliable service. The support is prompt, polite, and genuinely helpful every time we reach out.',
 
     author: 'Emma T.',
 

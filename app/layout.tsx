@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     'B2B',
     'business utilities',
     'energy',
-    'water',
     'card machines',
     'payment solutions',
     'UK',

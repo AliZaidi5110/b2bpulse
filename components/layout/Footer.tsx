@@ -12,7 +12,6 @@ const footerNav = [
 const footerServices = [
   { label: 'Energy', href: '/energy' },
   { label: 'Card Machine', href: '/card-machine' },
-  { label: 'Water', href: '/water' },
 ];
 
 export function Footer() {
@@ -21,7 +20,7 @@ export function Footer() {
       <div className="container-max section-padding !py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
-            <Logo height={52} />
+            <Logo height={76} />
             <p className="mt-4 text-sm text-slate-300">{siteConfig.tagline}</p>
             <div className="mt-4 space-y-2 text-sm text-slate-400">
               <div className="flex items-start gap-2">

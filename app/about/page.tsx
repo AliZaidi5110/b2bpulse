@@ -8,7 +8,7 @@ import { companyStats, siteConfig } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    `Learn about ${siteConfig.name} — your trusted partner for energy, water, and payment solutions across the UK.`,
+    `Learn about ${siteConfig.name} — your trusted partner for energy and payment solutions across the UK.`,
 };
 
 const features = [
@@ -94,7 +94,7 @@ export default function AboutPage() {
         <div className="container-max text-center">
           <h2 className="font-display text-3xl font-bold">Ready to get started?</h2>
           <p className="mx-auto mt-4 max-w-lg text-slate-600 dark:text-slate-300">
-            Contact {siteConfig.name} for a tailored quote on energy, water, or card machine solutions.
+            Contact {siteConfig.name} for a tailored quote on energy or card machine solutions.
           </p>
           <Link href="/contact" className="btn-primary mt-8">
             Get a Quote
