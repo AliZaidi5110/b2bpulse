@@ -3,9 +3,9 @@ export const siteConfig = {
   tagline: 'Connecting What Matters',
   description:
     'From energy and water to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
-  url: 'https://corelynk.co.uk',
+  url: 'https://corelynkltd.co.uk',
   contact: {
-    email: 'info@corelynk.co.uk',
+    email: 'info@corelynkltd.co.uk',
     phone: '+44-7577-318136',
     phoneHref: 'tel:+447577318136',
     address: {
@@ -76,7 +76,7 @@ export const faqs = [
   {
     question: 'How can I get a quote?',
     answer:
-      'Contact us via our contact page, email info@corelynk.co.uk, or call +44-7577-318136. Our team will provide a tailored quote for your business needs.',
+      'Contact us via our contact page, email info@corelynkltd.co.uk, or call +44-7577-318136. Our team will provide a tailored quote for your business needs.',
   },
   {
     question: 'What support do you offer after setup?',
