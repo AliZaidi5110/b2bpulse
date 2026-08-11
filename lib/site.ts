@@ -1,5 +1,7 @@
 export const siteConfig = {
   name: 'Corelynk',
+  legalName: 'CORELYNK LIMITED',
+  companyNumber: '16687416',
   tagline: 'Connecting What Matters',
   description:
     'From business energy to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
@@ -9,9 +11,9 @@ export const siteConfig = {
     phone: '+44-7577-318136',
     phoneHref: 'tel:+447577318136',
     address: {
-      line1: 'Office 12907, 182-184 High Street North',
-      line2: 'East Ham, London, England, E6 2JA',
-      full: 'Office 12907, 182-184 High Street North, East Ham, London, England, E6 2JA',
+      line1: '23 King Edward Street',
+      line2: 'Shildon, England, DL4 2EU',
+      full: '23 King Edward Street, Shildon, England, DL4 2EU',
     },
     hours: 'Monday – Friday, 09am – 05pm',
   },

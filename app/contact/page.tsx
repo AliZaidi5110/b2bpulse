@@ -28,6 +28,12 @@ export default function ContactPage() {
             <div className="card h-full">
               <h2 className="font-display text-lg font-semibold">Contact Info</h2>
               <div className="mt-6 space-y-4">
+                <div className="text-sm text-slate-600 dark:text-slate-300">
+                  <p className="font-semibold text-navy dark:text-white">
+                    {siteConfig.legalName}
+                  </p>
+                  <p>Company number {siteConfig.companyNumber}</p>
+                </div>
                 <a
                   href={`mailto:${siteConfig.contact.email}`}
                   className="flex items-center gap-3 text-sm text-slate-600 transition-colors hover:text-primary dark:text-slate-300"

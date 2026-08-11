@@ -23,6 +23,9 @@ export function Footer() {
             <Logo height={76} />
             <p className="mt-4 text-sm text-slate-300">{siteConfig.tagline}</p>
             <div className="mt-4 space-y-2 text-sm text-slate-400">
+              <p>
+                {siteConfig.legalName} · Company number {siteConfig.companyNumber}
+              </p>
               <div className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-neon" />
                 <span>{siteConfig.contact.address.full}</span>
