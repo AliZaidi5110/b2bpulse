@@ -16,7 +16,7 @@ export function Logo({
   linkToHome = true,
 }: LogoProps) {
   const image = (
-    <span className="inline-flex items-center rounded-lg bg-black px-2 py-1">
+    <span className="inline-flex items-center rounded-lg bg-white px-2 py-1">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/logo.png"

@@ -17,7 +17,7 @@ const footerServices = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900/50">
+    <footer className="border-t border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900/50">
       <div className="container-max section-padding !py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
