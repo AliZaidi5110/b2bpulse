@@ -20,6 +20,61 @@ export const energyHighlights = [
   'No high-pressure sales — your business comes first',
 ];
 
+export const energyManagementServices = [
+  {
+    title: 'Business Energy Comparison',
+    icon: 'laptop',
+    image: '/images/energy/service-energy-comparison.png',
+    imageAlt: 'Electrical engineer testing cables on an industrial control panel',
+    features: [
+      'Free comparison of 30+ UK gas and electricity suppliers',
+      'Fixed, variable and flexible tariff options',
+      'Small business to enterprise-level solutions',
+      'Green energy and renewable tariff options',
+    ],
+    cta: { label: 'Call for Free Energy Advice', href: '/contact' },
+  },
+  {
+    title: 'Contract Management',
+    icon: 'clipboard',
+    image: '/images/energy/service-contract-management.png',
+    imageAlt: 'Business owner reviewing energy contract documents at home',
+    features: [
+      'Proactive renewal reminders before your contract ends',
+      'Market analysis to time your renewal strategically',
+      'Contract review to identify unfair terms',
+      'Help with supplier switches and objections',
+    ],
+    cta: { label: 'Review My Energy Contract', href: '/contact' },
+  },
+  {
+    title: 'Bill Validation & Dispute Resolution',
+    icon: 'pound',
+    image: '/images/energy/service-bill-validation.png',
+    imageAlt: 'Person reviewing a utility bill with calculator and laptop',
+    features: [
+      'Monthly bill checks to catch supplier errors',
+      'Overcharge recovery assistance',
+      'Help resolving disputes with energy suppliers',
+      'VAT and standing charge verification',
+    ],
+    cta: { label: 'Upload My Bill for Review', href: '/contact' },
+  },
+  {
+    title: 'Energy Efficiency Consultation',
+    icon: 'leaf',
+    image: '/images/energy/service-energy-efficiency.png',
+    imageAlt: 'Technician testing industrial electrical equipment with a multimeter',
+    features: [
+      'Free energy audit recommendations',
+      'Advice on reducing consumption without impacting operations',
+      'Guidance on government energy efficiency schemes',
+      'Smart meter installation coordination',
+    ],
+    cta: { label: 'Chat on WhatsApp', href: '/contact' },
+  },
+];
+
 export const energyServices = [
   {
     title: 'Business Electricity',
