@@ -15,7 +15,7 @@ export function Header() {
 
   return (
     <header
-      className="sticky top-0 z-50 border-b border-slate-200/60 backdrop-blur-md dark:border-slate-800/60"
+      className="sticky top-0 z-50 border-b border-slate-200/80 backdrop-blur-md dark:border-neon/10"
       style={{ backgroundColor: 'var(--nav-bg)' }}
     >
       <div className="container-max flex h-16 items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
@@ -29,8 +29,8 @@ export function Header() {
               className={cn(
                 'rounded-lg px-3 py-2 text-sm font-medium transition-colors',
                 pathname === link.href
-                  ? 'bg-primary/10 text-primary'
-                  : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white'
+                  ? 'bg-neon/10 text-navy dark:text-neon'
+                  : 'text-slate-600 hover:bg-slate-100 hover:text-navy dark:text-slate-300 dark:hover:bg-navy-light dark:hover:text-white'
               )}
             >
               {link.label}
@@ -67,8 +67,8 @@ export function Header() {
               className={cn(
                 'block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors',
                 pathname === link.href
-                  ? 'bg-primary/10 text-primary'
-                  : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+                  ? 'bg-neon/10 text-navy dark:text-neon'
+                  : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-navy-light'
               )}
             >
               {link.label}

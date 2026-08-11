@@ -17,10 +17,10 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 export function ServicesGrid() {
   return (
-    <section className="section-padding">
+    <section className="section-padding section-surface-muted">
       <div className="container-max">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-medium uppercase tracking-wider text-primary">
+          <p className="label-neon">
             Solutions That Empower Businesses
           </p>
           <h2 className="mt-2 font-display text-3xl font-bold sm:text-4xl">

@@ -6,25 +6,29 @@
 
 @layer base {
   :root {
-    --bg-primary: #FFFFFF;
-    --bg-secondary: #FFFFFF;
-    --text-primary: #0F172A;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f4f6f8;
+    --bg-muted: #e8ecf1;
+    --text-primary: #0a1f44;
     --text-secondary: #475569;
-    --text-muted: #94A3B8;
-    --border-color: #E2E8F0;
-    --card-bg: #FFFFFF;
-    --nav-bg: rgba(255, 255, 255, 0.95);
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --card-bg: #ffffff;
+    --nav-bg: rgba(255, 255, 255, 0.96);
+    --brand-navy: #0a1f44;
+    --brand-neon: #00c8ff;
   }
 
   .dark {
-    --bg-primary: #0B1220;
-    --bg-secondary: #111827;
-    --text-primary: #F1F5F9;
-    --text-secondary: #94A3B8;
-    --text-muted: #64748B;
-    --border-color: #1E293B;
-    --card-bg: #111827;
-    --nav-bg: rgba(11, 18, 32, 0.85);
+    --bg-primary: #061528;
+    --bg-secondary: #0a1f44;
+    --bg-muted: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --border-color: #1e293b;
+    --card-bg: #0f2d5c;
+    --nav-bg: rgba(10, 31, 68, 0.92);
   }
 
   html {
@@ -46,17 +50,25 @@
   }
 
   body {
-    @apply bg-white text-slate-900 font-sans antialiased;
+    @apply font-sans antialiased;
     background-color: var(--bg-primary);
     color: var(--text-primary);
+    background-image:
+      radial-gradient(ellipse 90% 60% at 50% -10%, rgba(0, 200, 255, 0.07), transparent 55%),
+      radial-gradient(ellipse 50% 40% at 100% 0%, rgba(10, 31, 68, 0.04), transparent 50%),
+      radial-gradient(ellipse 40% 30% at 0% 100%, rgba(10, 31, 68, 0.03), transparent 50%);
   }
 
   .dark body {
-    @apply bg-navy text-slate-100;
+    background-color: var(--bg-primary);
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 200, 255, 0.08), transparent 55%),
+      radial-gradient(ellipse 60% 40% at 100% 50%, rgba(0, 200, 255, 0.04), transparent 50%);
+    @apply text-slate-100;
   }
 
   *:focus-visible {
-    @apply outline-2 outline-offset-2 outline-primary;
+    @apply outline-2 outline-offset-2 outline-neon;
   }
 }
 
@@ -65,22 +77,71 @@
     @apply bg-gradient-primary bg-clip-text text-transparent;
   }
 
+  .text-accent-neon {
+    color: var(--brand-neon);
+  }
+
+  .section-surface {
+    @apply bg-white;
+  }
+
+  .section-surface-muted {
+    background-color: #f4f6f8;
+    background-image:
+      linear-gradient(rgba(10, 31, 68, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(10, 31, 68, 0.025) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .section-surface-gray {
+    background-color: #e8ecf1;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(10, 31, 68, 0.06) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+
+  .section-surface-navy {
+    background-color: #0a1f44;
+    background-image:
+      linear-gradient(rgba(0, 200, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 200, 255, 0.04) 1px, transparent 1px),
+      radial-gradient(ellipse at top right, rgba(0, 200, 255, 0.12), transparent 55%);
+    background-size: 32px 32px, 32px 32px, 100% 100%;
+    @apply text-white;
+  }
+
+  .dark .section-surface-muted {
+    background-color: #0f2d5c;
+    background-image:
+      linear-gradient(rgba(0, 200, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 200, 255, 0.05) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
   .card {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
-    @apply rounded-xl p-6 transition-shadow duration-200;
+    @apply rounded-xl p-6 transition-all duration-200;
   }
 
   .card:hover {
-    @apply shadow-lg shadow-primary/5;
+    @apply shadow-navy border-neon/20;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-primary px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:shadow-lg hover:shadow-primary/25 focus-visible:outline-primary;
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-primary px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:shadow-neon focus-visible:outline-neon;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-transparent px-6 py-3 text-sm font-semibold text-slate-700 transition-all duration-200 hover:bg-slate-100 dark:border-slate-600 dark:text-slate-200 dark:hover:bg-slate-800;
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-navy transition-all duration-200 hover:border-neon/40 hover:bg-neon/5 dark:border-slate-600 dark:bg-navy-light dark:text-slate-200 dark:hover:border-neon/40;
+  }
+
+  .label-neon {
+    @apply text-sm font-medium uppercase tracking-wider text-neon;
+  }
+
+  .label-navy {
+    @apply text-sm font-medium uppercase tracking-wider text-navy dark:text-neon;
   }
 
   .section-padding {

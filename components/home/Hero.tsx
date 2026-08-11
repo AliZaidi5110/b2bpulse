@@ -27,8 +27,9 @@ export function Hero() {
   }, [mounted]);
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden section-surface">
       <div className="absolute inset-0 bg-gradient-radial" aria-hidden="true" />
+      <div className="absolute inset-0 bg-gradient-navy-radial opacity-60" aria-hidden="true" />
       <div className="container-max section-padding relative">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="relative min-h-[22rem] sm:min-h-[24rem]">
@@ -43,11 +44,11 @@ export function Hero() {
                 )}
                 aria-hidden={index !== active}
               >
-                <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary">
+                <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-neon/30 bg-neon/10 px-4 py-1.5 text-sm font-medium text-navy">
                   {slide.tag}
                 </div>
 
-                <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl lg:text-5xl xl:text-6xl">
+                <h1 className="font-display text-4xl font-bold tracking-tight text-navy sm:text-5xl lg:text-5xl xl:text-6xl">
                   {slide.title}
                 </h1>
 
@@ -75,7 +76,7 @@ export function Hero() {
                   onClick={() => setActive(i)}
                   className={cn(
                     'h-2 rounded-full transition-all',
-                    i === active ? 'w-8 bg-primary' : 'w-2 bg-slate-300 dark:bg-slate-600'
+                    i === active ? 'w-8 bg-neon shadow-neon-sm' : 'w-2 bg-slate-300 dark:bg-slate-600'
                   )}
                   aria-label={`Go to slide ${i + 1}`}
                   aria-current={i === active ? 'true' : undefined}
@@ -85,13 +86,13 @@ export function Hero() {
           </div>
 
           <div className="relative">
-            <div className="absolute -inset-4 rounded-3xl bg-gradient-primary opacity-20 blur-2xl" aria-hidden="true" />
+            <div className="absolute -inset-4 rounded-3xl bg-gradient-neon opacity-15 blur-2xl" aria-hidden="true" />
             <div className="relative overflow-hidden rounded-2xl border border-slate-200/80 shadow-2xl shadow-primary/10 dark:border-slate-700">
               <HeroVideo showControls />
             </div>
             <div className="absolute -bottom-4 -left-4 rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-lg dark:border-slate-700 dark:bg-slate-900">
               <p className="font-mono text-xs text-slate-400">Trusted across the UK</p>
-              <p className="font-display text-sm font-semibold text-primary">740+ Projects Delivered</p>
+              <p className="font-display text-sm font-semibold text-neon">740+ Projects Delivered</p>
             </div>
           </div>
         </div>

@@ -18,11 +18,11 @@ export default function HomePage() {
       <PaymentGallery />
       <ServicesGrid />
 
-      <section className="section-padding bg-slate-50 dark:bg-slate-900/30">
+      <section className="section-padding section-surface-muted">
         <div className="container-max">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
-              <p className="text-sm font-medium uppercase tracking-wider text-primary">
+              <p className="label-navy">
                 Built for Modern Businesses
               </p>
               <h2 className="mt-2 font-display text-3xl font-bold sm:text-4xl">
@@ -35,15 +35,15 @@ export default function HomePage() {
               </p>
               <ul className="mt-6 space-y-3 text-sm text-slate-600 dark:text-slate-300">
                 <li className="flex items-start gap-2">
-                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neon shadow-neon-sm" />
                   Optimised Utility Management for Every Industry
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neon shadow-neon-sm" />
                   Seamless Integration with Trusted Support Team
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neon shadow-neon-sm" />
                   Delivering Smarter Energy, Water &amp; Payment Solutions Across the UK
                 </li>
               </ul>
@@ -63,11 +63,11 @@ export default function HomePage() {
                 customised approach ensures savings, stability, and peace of mind.
               </p>
               <div className="mt-6 grid grid-cols-2 gap-4">
-                <div className="rounded-lg bg-primary/5 p-4 text-center">
-                  <p className="font-display font-semibold text-primary">Tailored Plans</p>
+                <div className="rounded-lg border border-neon/20 bg-neon/5 p-4 text-center">
+                  <p className="font-display font-semibold text-navy">Tailored Plans</p>
                 </div>
-                <div className="rounded-lg bg-signal/5 p-4 text-center">
-                  <p className="font-display font-semibold text-signal">Reliable Service</p>
+                <div className="rounded-lg border border-navy/10 bg-navy/5 p-4 text-center">
+                  <p className="font-display font-semibold text-navy">Reliable Service</p>
                 </div>
               </div>
               <p className="mt-4 text-xs text-slate-400">

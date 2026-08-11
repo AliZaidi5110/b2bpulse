@@ -29,14 +29,14 @@ export function PulseLine({
     >
       <defs>
         <linearGradient id="pulseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#4C6FFF" />
-          <stop offset="50%" stopColor="#7C5CFF" />
-          <stop offset="100%" stopColor="#14B8A6" />
+          <stop offset="0%" stopColor="#0a1f44" />
+          <stop offset="50%" stopColor="#00C8FF" />
+          <stop offset="100%" stopColor="#5CE1FF" />
         </linearGradient>
         <linearGradient id="pulseGradientFade" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#4C6FFF" stopOpacity="0.1" />
-          <stop offset="50%" stopColor="#7C5CFF" stopOpacity="0.3" />
-          <stop offset="100%" stopColor="#14B8A6" stopOpacity="0.1" />
+          <stop offset="0%" stopColor="#0a1f44" stopOpacity="0.15" />
+          <stop offset="50%" stopColor="#00C8FF" stopOpacity="0.35" />
+          <stop offset="100%" stopColor="#5CE1FF" stopOpacity="0.15" />
         </linearGradient>
       </defs>
 
@@ -72,7 +72,7 @@ export function PulseLine({
 
       {/* Animated dot traveling along the line */}
       {animated && variant === 'hero' && (
-        <circle r="4" fill="#14B8A6" className="motion-safe:animate-pulse">
+        <circle r="4" fill="#00C8FF" className="motion-safe:animate-pulse">
           <animateMotion
             dur="4s"
             repeatCount="indefinite"

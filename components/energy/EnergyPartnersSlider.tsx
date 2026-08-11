@@ -7,7 +7,7 @@ export function EnergyPartnersSlider() {
   return (
     <section className="mt-16">
       <div className="mx-auto max-w-3xl text-center">
-        <p className="text-sm font-medium uppercase tracking-wider text-primary">
+        <p className="label-navy">
           Our Partners
         </p>
         <h2 className="mt-2 font-display text-2xl font-bold sm:text-3xl">

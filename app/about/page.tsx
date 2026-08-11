@@ -74,7 +74,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section-padding bg-slate-50 dark:bg-slate-900/30">
+      <section className="section-padding section-surface-muted">
         <div className="container-max">
           <h2 className="text-center font-display text-3xl font-bold">
             We completed 740+ projects successfully and continuously working

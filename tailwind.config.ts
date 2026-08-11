@@ -10,17 +10,26 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: '#0B1220',
-        offwhite: '#F7F8FA',
-        primary: {
-          DEFAULT: '#4C6FFF',
-          end: '#7C5CFF',
+        navy: {
+          DEFAULT: '#0a1f44',
+          light: '#0f2d5c',
+          dark: '#061528',
         },
-        signal: '#14B8A6',
+        neon: {
+          DEFAULT: '#00C8FF',
+          glow: '#5CE1FF',
+          dim: '#0099CC',
+        },
+        offwhite: '#F4F6F8',
+        primary: {
+          DEFAULT: '#0a1f44',
+          end: '#00C8FF',
+        },
+        signal: '#00C8FF',
         alert: '#F59E0B',
         slate: {
           50: '#F8FAFC',
-          100: '#F1F5F9',
+          100: '#F1F5F5',
           200: '#E2E8F0',
           300: '#CBD5E1',
           400: '#94A3B8',
@@ -37,8 +46,19 @@ const config: Config = {
         mono: ['"JetBrains Mono"', 'monospace'],
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(135deg, #4C6FFF 0%, #7C5CFF 100%)',
-        'gradient-radial': 'radial-gradient(ellipse at top, rgba(76, 111, 255, 0.15), transparent 60%)',
+        'gradient-primary':
+          'linear-gradient(135deg, #0a1f44 0%, #0f3d6e 45%, #00C8FF 100%)',
+        'gradient-neon':
+          'linear-gradient(90deg, #00C8FF 0%, #5CE1FF 50%, #00C8FF 100%)',
+        'gradient-radial':
+          'radial-gradient(ellipse at top, rgba(0, 200, 255, 0.14), transparent 62%)',
+        'gradient-navy-radial':
+          'radial-gradient(ellipse at bottom, rgba(10, 31, 68, 0.06), transparent 70%)',
+      },
+      boxShadow: {
+        neon: '0 0 24px rgba(0, 200, 255, 0.35)',
+        'neon-sm': '0 0 12px rgba(0, 200, 255, 0.25)',
+        navy: '0 8px 32px rgba(10, 31, 68, 0.12)',
       },
       animation: {
         'pulse-line': 'pulse-line 3s ease-in-out infinite',

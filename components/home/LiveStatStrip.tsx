@@ -4,7 +4,7 @@ import { liveStats } from '@/lib/data';
 export function LiveStatStrip() {
   return (
     <section
-      className="border-y border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900/50"
+      className="section-surface-muted border-y border-slate-200/80 dark:border-slate-800"
       aria-label="Live market statistics"
     >
       <div className="container-max">
