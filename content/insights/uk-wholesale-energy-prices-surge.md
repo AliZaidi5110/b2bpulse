@@ -31,7 +31,7 @@ Industrial demand remains resilient, with manufacturing PMI readings holding abo
 
 ## Outlook
 
-Pulse analysts expect prices to remain elevated through Q3 2025, with potential relief from increased LNG arrivals in September. Procurement teams should consider locking in forward contracts for Q4 exposure.
+Corelynk analysts expect prices to remain elevated through Q3 2025, with potential relief from increased LNG arrivals in September. Procurement teams should consider locking in forward contracts for Q4 exposure.
 
 ### Recommended Actions
 

@@ -8,7 +8,7 @@ export function SavingsPromoBanner() {
         <div className="relative overflow-hidden rounded-[1.75rem] shadow-xl sm:rounded-[2rem] lg:rounded-[2.5rem]">
           <img
             src="/images/home/savings-app-mockup.png"
-            alt="B2B PULSE mobile app with smart meter dashboard on a rustic red background"
+            alt="Corelynk mobile app with smart meter dashboard on a rustic red background"
             className="block min-h-[320px] w-full object-cover object-center sm:min-h-0"
           />
 

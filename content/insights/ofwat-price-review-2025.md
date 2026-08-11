@@ -34,7 +34,7 @@ Tariff changes will vary significantly by water company region:
 
 ## Strategic Considerations
 
-Business customers with multi-site portfolios should model the regional impact on total water spend. Pulse's tariff modelling tool can project costs across all 17 water company regions.
+Business customers with multi-site portfolios should model the regional impact on total water spend. Corelynk's tariff modelling tool can project costs across all 17 water company regions.
 
 ## Next Steps
 

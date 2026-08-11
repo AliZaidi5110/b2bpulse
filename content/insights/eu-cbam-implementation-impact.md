@@ -34,7 +34,7 @@ From January 2026, importers into the EU must:
 
 ## Cost Implications
 
-Pulse modelling suggests average carbon cost pass-through of **€45–€85 per tonne CO₂** for affected products, depending on production methods and grid carbon intensity.
+Corelynk modelling suggests average carbon cost pass-through of **€45–€85 per tonne CO₂** for affected products, depending on production methods and grid carbon intensity.
 
 ## Preparing Your Business
 
@@ -43,4 +43,4 @@ Pulse modelling suggests average carbon cost pass-through of **€45–€85 per
 - Engage with EU customers on cost-sharing mechanisms
 - Monitor UK government CBAM response proposals
 
-Pulse's Carbon Compliance module tracks CBAM developments and provides sector-specific impact assessments.
+Corelynk's Carbon Compliance module tracks CBAM developments and provides sector-specific impact assessments.

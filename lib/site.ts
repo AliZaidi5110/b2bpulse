@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: 'B2B PULSE',
-  tagline: 'Business Utility & Payment Solutions',
+  name: 'Corelynk',
+  tagline: 'Connecting What Matters',
   description:
-    'From energy and water to payment systems, B2B PULSE delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
-  url: 'https://b2bpulse.co.uk',
+    'From energy and water to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
+  url: 'https://corelynk.co.uk',
   contact: {
-    email: 'info@b2bpulse.co.uk',
+    email: 'info@corelynk.co.uk',
     phone: '+44-7577-318136',
     phoneHref: 'tel:+447577318136',
     address: {
@@ -15,7 +15,7 @@ export const siteConfig = {
     },
     hours: 'Monday – Friday, 09am – 05pm',
   },
-  copyright: 'Copyright © 2024 B2B PULSE. All Rights Reserved',
+  copyright: 'Copyright © 2026 Corelynk. All Rights Reserved',
   heroVideo: '/videos/hero.mp4',
 };
 
@@ -33,7 +33,7 @@ export const heroSlides = [
   {
     title: 'Empowering Business Utilities',
     description:
-      'From energy and water to payment systems, B2B PULSE delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
+      'From energy and water to payment systems, Corelynk delivers efficient, tailored services for businesses across the UK. Smart solutions built to reduce cost and boost performance.',
     tag: 'Energy',
     cta: { label: 'Explore Energy', href: '/energy' },
   },
@@ -64,19 +64,19 @@ export const companyStats = [
 
 export const faqs = [
   {
-    question: 'What services does B2B PULSE provide?',
+    question: 'What services does Corelynk provide?',
     answer:
       'We provide complete utility solutions including energy, water, and card machines — designed to simplify operations, reduce costs, and help your business grow.',
   },
   {
     question: 'Do you serve businesses across the UK?',
     answer:
-      'Yes. B2B PULSE delivers smarter energy, water, and payment solutions across the UK for startups and large enterprises alike.',
+      'Yes. Corelynk delivers smarter energy, water, and payment solutions across the UK for startups and large enterprises alike.',
   },
   {
     question: 'How can I get a quote?',
     answer:
-      'Contact us via our contact page, email info@b2bpulse.co.uk, or call +44-7577-318136. Our team will provide a tailored quote for your business needs.',
+      'Contact us via our contact page, email info@corelynk.co.uk, or call +44-7577-318136. Our team will provide a tailored quote for your business needs.',
   },
   {
     question: 'What support do you offer after setup?',

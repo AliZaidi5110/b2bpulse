@@ -33,7 +33,7 @@ Suppliers must now publish:
 
 ## Impact on Procurement
 
-These disclosures will significantly improve market transparency, enabling procurement teams to make more informed supplier comparisons. Pulse will integrate the new data feeds into our supplier benchmarking module upon release.
+These disclosures will significantly improve market transparency, enabling procurement teams to make more informed supplier comparisons. Corelynk will integrate the new data feeds into our supplier benchmarking module upon release.
 
 ## Action Items
 

@@ -1,10 +1,10 @@
-# Pulse — B2B Business Intelligence Platform
+# Corelynk — Business Utilities Platform
 
-A professional B2B SaaS marketing and intelligence platform built with **Next.js 14** (App Router), **TypeScript**, and **Tailwind CSS**. Pulse helps B2B teams track energy, water, and payments-market trends, industry news, and account performance.
+A professional marketing site for **Corelynk**, built with **Next.js 14** (App Router), **TypeScript**, and **Tailwind CSS**. Corelynk helps UK businesses manage energy, water, and payment solutions.
 
 ## Features
 
-- **Home** — Hero with animated pulse line, live stat strip, services grid, testimonials, newsletter CTA
+- **Home** — Hero carousel, live stat strip, services grid, testimonials, newsletter CTA
 - **Insights** — Markdown-powered article feed with category filtering and individual article pages
 - **Dashboard** — KPI cards, trend line chart, category bar chart, sortable data table (Recharts)
 - **About** & **Contact** — Company story and contact form
@@ -28,114 +28,49 @@ A professional B2B SaaS marketing and intelligence platform built with **Next.js
 ### Prerequisites
 
 - Node.js 18.17+ (or 20+)
-- npm, yarn, or pnpm
+- npm 9+
 
-### Local Development
+### Installation
 
 ```bash
-# 1. Clone or extract the project
-cd pulse-b2b
-
-# 2. Install dependencies
+git clone <repo-url>
+cd corelynk
 npm install
-
-# 3. Copy environment variables
-cp .env.example .env.local
-
-# 4. Start the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000).
 
-### Production Build
+### Clean dev start (Windows / OneDrive)
+
+If the dev server fails with cache errors:
 
 ```bash
-npm run build
-npm start
+npm run dev:clean
 ```
 
 ## Project Structure
 
 ```
-pulse-b2b/
+corelynk/
 ├── app/                    # Next.js App Router pages
-│   ├── page.tsx            # Home
-│   ├── insights/           # Insights feed + [slug] articles
-│   ├── dashboard/          # BI dashboard
-│   ├── about/              # About page
-│   └── contact/            # Contact page
-├── components/
-│   ├── home/               # Home page sections
-│   ├── insights/           # Article cards, filters
-│   ├── dashboard/          # Charts, KPIs, data table
-│   ├── layout/             # Header, Footer
-│   └── ui/                 # PulseLine, ThemeToggle
-├── content/
-│   └── insights/           # Markdown articles with frontmatter
-├── lib/
-│   ├── content.ts          # CMS abstraction layer
-│   ├── data.ts             # Dashboard mock data
-│   ├── types.ts            # Shared TypeScript types
-│   └── utils.ts            # Helpers
-└── public/                 # Static assets
+├── components/             # React components
+│   ├── home/               # Homepage sections
+│   ├── layout/             # Header, Footer, TopBar
+│   └── ui/                 # Logo, ThemeToggle, decorative elements
+├── content/insights/       # Markdown articles
+├── lib/                    # site config, data, content helpers
+├── public/                 # Static assets (logo, images)
+└── tailwind.config.ts
 ```
 
-## Content Management
-
-Articles live in `content/insights/*.md` with YAML frontmatter:
-
-```markdown
----
-title: "Article Title"
-excerpt: "Short description"
-category: "Energy Markets"
-author: "Author Name"
-publishedAt: "2025-06-28"
-readTime: "5 min"
-featured: true
-tags: ["tag1", "tag2"]
----
-
-Article body in Markdown...
-```
-
-To migrate to a headless CMS, replace the `MarkdownContentProvider` class in `lib/content.ts` with a CMS-specific implementation — page components remain unchanged.
-
-## Deploy to Vercel
-
-1. Push the project to a Git repository (GitHub, GitLab, or Bitbucket)
-2. Import the repo at [vercel.com/new](https://vercel.com/new)
-3. Set environment variables from `.env.example`
-4. Deploy — Vercel auto-detects Next.js settings
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-## Docker Deployment
+## Docker
 
 ```bash
-# Build the image
-docker build -t pulse-b2b .
-
-# Run the container
-docker run -p 3000:3000 pulse-b2b
+docker build -t corelynk .
+docker run -p 3000:3000 corelynk
 ```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Design System
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| Navy | `#0B1220` | Dark background |
-| Off-white | `#F7F8FA` | Light background |
-| Primary gradient | `#4C6FFF → #7C5CFF` | CTAs, accents |
-| Signal teal | `#14B8A6` | Positive metrics |
-| Alert amber | `#F59E0B` | Warnings |
-| Display font | Space Grotesk | Headings |
-| Body font | Inter | Body text |
-| Mono font | JetBrains Mono | Data/metrics |
 
 ## License
 
-Private — Pulse Intelligence Ltd.
+Private — Corelynk.

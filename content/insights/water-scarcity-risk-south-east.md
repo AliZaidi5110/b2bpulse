@@ -11,7 +11,7 @@ tags: ["water", "scarcity", "climate", "risk"]
 
 ## Executive Summary
 
-Pulse's water risk modelling indicates elevated scarcity probability for South East England business customers over the next 18 months. This analysis combines climate projections, reservoir levels, and consumption trend data.
+Corelynk's water risk modelling indicates elevated scarcity probability for South East England business customers over the next 18 months. This analysis combines climate projections, reservoir levels, and consumption trend data.
 
 ## Risk Indicators
 
@@ -39,6 +39,6 @@ Business customers should consider:
 3. **Alternative supply arrangements** including borehole feasibility
 4. **Insurance review** for business interruption coverage
 
-## Pulse Tools
+## Corelynk Tools
 
 Our Water Risk Dashboard provides site-level scarcity scoring, updated weekly with the latest Environment Agency data. Contact your account team to enable this module.

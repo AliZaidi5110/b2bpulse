@@ -1,8 +1,8 @@
 ---
-title: "Pulse Platform Update: New Dashboard Widgets and API v2"
+title: "Corelynk Platform Update: New Dashboard Widgets and API v2"
 excerpt: "Introducing customisable KPI widgets, enhanced trend visualisations, and a redesigned REST API for enterprise integrations."
 category: "Platform Updates"
-author: "Pulse Engineering"
+author: "Corelynk Engineering"
 publishedAt: "2025-06-15"
 readTime: "3 min"
 featured: false
@@ -11,7 +11,7 @@ tags: ["platform", "api", "dashboard", "release"]
 
 ## What's New
 
-We're excited to announce the latest Pulse platform release, packed with features requested by our enterprise customers.
+We're excited to announce the latest Corelynk platform release, packed with features requested by our enterprise customers.
 
 ## Dashboard Enhancements
 
@@ -40,7 +40,7 @@ Our redesigned REST API offers:
 - **Rate limiting** with transparent usage dashboards
 - **OAuth 2.0** authentication with scoped permissions
 
-Full API documentation is available at `docs.pulse.io/api/v2`.
+Full API documentation is available at `docs.corelynk.co.uk/api/v2`.
 
 ## Migration Notes
 

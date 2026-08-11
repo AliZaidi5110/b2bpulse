@@ -12,11 +12,11 @@ interface LogoProps {
 
 export function Logo({
   className,
-  height = 40,
+  height = 48,
   linkToHome = true,
 }: LogoProps) {
   const image = (
-    <span className="inline-flex rounded-lg bg-white/90 px-2 py-1 dark:bg-white">
+    <span className="inline-flex items-center rounded-lg bg-black px-2 py-1">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/logo.png"

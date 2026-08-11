@@ -1,3 +1,5 @@
+import { siteConfig } from '@/lib/site';
+
 const galleryImages = [
   {
     src: '/images/payment-gallery/card-payment.jpg',
@@ -18,7 +20,7 @@ export function PaymentGallery() {
     <section className="section-padding">
       <div className="container-max">
         <p className="mx-auto max-w-3xl text-center text-base leading-relaxed text-slate-700 dark:text-slate-300 sm:text-lg">
-          B2B PULSE helps businesses compare card machines, EFTPOS options,
+          {siteConfig.name} helps businesses compare card machines, EFTPOS options,
           online payments and merchant service rates, with support built around
           retail, hospitality, trades and mobile businesses.
         </p>

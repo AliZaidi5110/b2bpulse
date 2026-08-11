@@ -19,7 +19,7 @@ export function Header() {
       style={{ backgroundColor: 'var(--nav-bg)' }}
     >
       <div className="container-max flex h-16 items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-        <Logo height={36} />
+        <Logo height={44} />
 
         <nav className="hidden items-center gap-1 xl:flex" aria-label="Main navigation">
           {navLinks.map((link) => (

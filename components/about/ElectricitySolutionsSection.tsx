@@ -1,3 +1,5 @@
+import { siteConfig } from '@/lib/site';
+
 export function ElectricitySolutionsSection() {
   return (
     <section className="mt-16 grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
@@ -12,7 +14,7 @@ export function ElectricitySolutionsSection() {
           We provide comprehensive electricity solutions designed to optimize
           energy usage, cut unnecessary costs, and support a transition to
           cleaner energy. Whether it&apos;s through energy audits, smart
-          metering, tariff optimization, or renewable integrations, B2B PULSE
+          metering, tariff optimization, or renewable integrations, {siteConfig.name}
           empowers both residential and commercial clients to take control of
           their power – efficiently and responsibly.
         </p>

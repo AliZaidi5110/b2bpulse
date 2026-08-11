@@ -4,7 +4,7 @@ export function MerchantPortalSection() {
       <div className="flex justify-center lg:justify-start">
         <img
           src="/images/card-machine/merchant-portal.png"
-          alt="B2B PULSE Merchant Portal mobile app on iPhone showing settlements and payment link details"
+          alt="Corelynk Merchant Portal mobile app on iPhone showing settlements and payment link details"
           className="w-full max-w-lg object-contain"
         />
       </div>

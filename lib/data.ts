@@ -100,7 +100,7 @@ export const testimonials: Testimonial[] = [
 
     quote:
 
-      'We switched to B2B PULSE for our energy and water needs, and the difference has been incredible. Their team helped us reduce costs while maintaining reliable service. The support is prompt, polite, and genuinely helpful every time we reach out.',
+      'We switched to Corelynk for our energy and water needs, and the difference has been incredible. Their team helped us reduce costs while maintaining reliable service. The support is prompt, polite, and genuinely helpful every time we reach out.',
 
     author: 'Emma T.',
 
@@ -114,7 +114,7 @@ export const testimonials: Testimonial[] = [
 
     quote:
 
-      'The card machine setup with B2B PULSE was quick, smooth, and perfectly suited to our daily operations. Payment processing has never been easier. It\'s reassuring to know that technical support is just a call away whenever we need it.',
+      'The card machine setup with Corelynk was quick, smooth, and perfectly suited to our daily operations. Payment processing has never been easier. It\'s reassuring to know that technical support is just a call away whenever we need it.',
 
     author: 'Omar K.',
 
@@ -128,7 +128,7 @@ export const testimonials: Testimonial[] = [
 
     quote:
 
-      'Working with B2B PULSE has made our utility management simpler and more effective. Their tailored solutions and proactive communication ensure everything runs efficiently. We\'ve gained both time and savings since partnering with them.',
+      'Working with Corelynk has made our utility management simpler and more effective. Their tailored solutions and proactive communication ensure everything runs efficiently. We\'ve gained both time and savings since partnering with them.',
 
     author: 'Hannah R.',
 

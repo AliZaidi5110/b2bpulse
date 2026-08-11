@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-import { faqs } from '@/lib/site';
+import { faqs, siteConfig } from '@/lib/site';
 import { cn } from '@/lib/utils';
 
 export default function FaqPage() {
@@ -15,7 +15,7 @@ export default function FaqPage() {
           <p className="text-sm font-medium uppercase tracking-wider text-primary">FAQs</p>
           <h1 className="mt-2 font-display text-4xl font-bold">Frequently Asked Questions</h1>
           <p className="mt-4 text-slate-600 dark:text-slate-300">
-            Find answers to common questions about B2B PULSE services.
+            Find answers to common questions about {siteConfig.name} services.
           </p>
         </div>
 

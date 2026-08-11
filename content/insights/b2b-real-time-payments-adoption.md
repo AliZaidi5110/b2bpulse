@@ -35,6 +35,6 @@ Fintech challengers continue to gain share:
 - **Tide** — Strong in micro-business segment
 - **Wise Business** — Leading cross-border B2B flows
 
-## Pulse Recommendation
+## Corelynk Recommendation
 
 Treasury teams should evaluate their payment stack against real-time capabilities. Legacy batch systems increasingly represent both cost and competitive disadvantage.

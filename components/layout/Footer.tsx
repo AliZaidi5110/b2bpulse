@@ -21,7 +21,7 @@ export function Footer() {
       <div className="container-max section-padding !py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
-            <Logo height={44} />
+            <Logo height={52} />
             <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">
               {siteConfig.tagline}
             </p>

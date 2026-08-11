@@ -1,3 +1,4 @@
+import { siteConfig } from '@/lib/site';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Hero } from '@/components/home/Hero';
@@ -28,7 +29,7 @@ export default function HomePage() {
                 Focused Services That Power Growth
               </h2>
               <p className="mt-4 text-slate-600 dark:text-slate-300">
-                At B2B PULSE, we help businesses manage energy, water, and
+                At {siteConfig.name}, we help businesses manage energy, water, and
                 payments with ease. Our smart solutions are reliable,
                 cost-effective, and fully tailored to your operations.
               </p>
@@ -57,7 +58,7 @@ export default function HomePage() {
                 Business-Focused Utility Solutions You Can Trust
               </h3>
               <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">
-                At B2B PULSE, we go beyond just supplying services — we simplify
+                At {siteConfig.name}, we go beyond just supplying services — we simplify
                 how your business manages energy, water, and payments. Our
                 customised approach ensures savings, stability, and peace of mind.
               </p>
