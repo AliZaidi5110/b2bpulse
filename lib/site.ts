@@ -8,8 +8,8 @@ export const siteConfig = {
   url: 'https://corelynkltd.co.uk',
   contact: {
     email: 'info@corelynkltd.co.uk',
-    phone: '+44-7577-318136',
-    phoneHref: 'tel:+447577318136',
+    phone: '+44-7411-557569',
+    phoneHref: 'tel:+447411557569',
     address: {
       line1: '23 King Edward Street',
       line2: 'Shildon, England, DL4 2EU',
@@ -70,7 +70,7 @@ export const faqs = [
   {
     question: 'How can I get a quote?',
     answer:
-      'Contact us via our contact page, email info@corelynkltd.co.uk, or call +44-7577-318136. Our team will provide a tailored quote for your business needs.',
+      'Contact us via our contact page, email info@corelynkltd.co.uk, or call +44-7411-557569. Our team will provide a tailored quote for your business needs.',
   },
   {
     question: 'What support do you offer after setup?',
